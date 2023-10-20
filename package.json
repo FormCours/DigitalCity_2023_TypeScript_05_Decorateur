@@ -1,0 +1,21 @@
+{
+  "name": "demo-05-decorateur",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/index.js",
+    "start-ts": "ts-node ./src/index.ts",
+    "watch": "tsc --watch",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aurélien",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
